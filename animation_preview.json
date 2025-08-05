@@ -1,0 +1,112 @@
+{
+  "active": "jab",
+  "globalOffset": {
+    "x": -72,
+    "y": -59
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "rowIndex": 0,
+      "frameCount": 6,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 8
+    },
+    {
+      "name": "run",
+      "rowIndex": 1,
+      "frameCount": 8,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5
+    },
+    {
+      "name": "jump",
+      "rowIndex": 2,
+      "frameCount": 3,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5,
+      "freeze": true,
+      "offset": {
+        "x": 0,
+        "y": 10
+      }
+    },
+    {
+      "name": "fall",
+      "rowIndex": 3,
+      "frameCount": 3,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5,
+      "freeze": true,
+      "offset": {
+        "x": 0,
+        "y": 10
+      }
+    },
+    {
+      "name": "jab",
+      "rowIndex": 4,
+      "frameCount": 8,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 3,
+      "freezeFrame": 6
+    },
+    {
+      "name": "cross",
+      "rowIndex": 5,
+      "frameCount": 8,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5,
+      "freezeFrame": 0
+    },
+    {
+      "name": "hurt",
+      "rowIndex": 6,
+      "frameCount": 5,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5
+    },
+    {
+      "name": "dodge",
+      "rowIndex": 7,
+      "frameCount": 5,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 3
+    },
+    {
+      "name": "aerial",
+      "rowIndex": 9,
+      "frameCount": 7,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 3,
+      "freezeFrame": 0
+    },
+    {
+      "name": "aerial_down_smash",
+      "rowIndex": 10,
+      "frameCount": 4,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5,
+      "freezeFrame": 0
+    },
+    {
+      "name": "aerial_down_smash_landing",
+      "rowIndex": 11,
+      "frameCount": 6,
+      "frameWidth": 144,
+      "frameHeight": 116,
+      "speed": 5,
+      "freezeFrame": 0
+    }
+  ]
+}
